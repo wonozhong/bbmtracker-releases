@@ -1,0 +1,18 @@
+{
+  "version": "1.3.4",
+  "versionCode": 8,
+  "minVersionCode": 1,
+  "releaseDate": "2026-10-25",
+  "fileSize": "5.2 MiB",
+  "mandatory": false,
+  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.3.4/Gason-1.3.4.apk",
+  "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/latest",
+  "releaseNotes": [
+    "Pembaruan database harga BBM terkini (FTZ Batam Pertamax Rp 15.150).",
+    "Integrasi pemantau AI 12 jam untuk harga BBM resmi.",
+    "Penyempurnaan halaman Garasi & BBM.",
+    "Penghapusan konfigurasi server teknis dari UI.",
+    "Pembersihan label debug dan peningkatan stabilitas argo."
+  ],
+  "sha256": "B37AFA3DDD5784740FD0B710291F06FCB0E4810CC1289776F26DD8507FE6867E"
+}
