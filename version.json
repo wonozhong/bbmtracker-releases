@@ -1,18 +1,18 @@
 {
-  "version": "1.3.4",
-  "versionCode": 8,
+  "version": "1.3.5",
+  "versionCode": 9,
   "minVersionCode": 1,
-  "releaseDate": "2026-10-25",
-  "fileSize": "5.2 MiB",
+  "releaseDate": "2026-10-26",
+  "fileSize": "5.0 MiB",
   "mandatory": false,
-  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.3.4/Gason-1.3.4.apk",
+  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.3.5/Gason-1.3.5.apk",
   "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/latest",
   "releaseNotes": [
-    "Pembaruan database harga BBM terkini (FTZ Batam Pertamax Rp 15.150).",
-    "Integrasi pemantau AI 12 jam untuk harga BBM resmi.",
-    "Penyempurnaan halaman Garasi & BBM.",
-    "Penghapusan konfigurasi server teknis dari UI.",
-    "Pembersihan label debug dan peningkatan stabilitas argo."
+    "Sistem Kalibrasi Full-to-Full 2.0: perhitungan Efisiensi Bergerak (Kompensasi Idle) agar bensin macet tidak terhitung ganda pada argo GPS.",
+    "Rekonsiliasi deviasi GPS vs SPBU per siklus pengisian, deteksi anomali odometer otomatis, dan indikator siklus aktif.",
+    "Sinkronisasi terpadu antara Kalibrasi Garasi, Log BBM, dan estimasi Odometer Servis real-time.",
+    "Pengaturan tarif Idle Burn (L/jam) langsung di modal efisiensi beserta preset motor (ISS/Matic/Sport) dan mobil (LCGC/MPV/SUV).",
+    "Akurasi Macet Meter ditingkatkan menggunakan residu riil konsumsi bensin saat berhenti."
   ],
-  "sha256": "A53B314AF85332EECE752760CC6510E2AF17CCCDF31D7776265C8CDF95122F87"
+  "sha256": "B6DA4D46D2D1E3FEF3BE8DACA0A5A886968C51259346F314AC983B6692BEF25D"
 }
