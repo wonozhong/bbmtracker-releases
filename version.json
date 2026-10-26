@@ -1,17 +1,17 @@
 {
-  "version": "1.3.7",
-  "versionCode": 11,
+  "version": "1.3.8",
+  "versionCode": 12,
   "minVersionCode": 1,
   "releaseDate": "2026-10-26",
   "fileSize": "5.0 MiB",
   "mandatory": false,
-  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.3.7/Gason-1.3.7.apk",
+  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.3.8/Gason-1.3.8.apk",
   "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/latest",
   "releaseNotes": [
-    "Notifikasi Status-Bar Android Live (Biaya Rp, Jarak km, & Kecepatan km/j real-time) + Kontrol penuh di Mode Peta Layar Penuh.",
-    "HUD Mode 2.0 dengan Mode Cermin Kaca Depan (Windshield Reflection), WakeLock layar otomatis, dan pratinjau jalur jalan raya untuk motor.",
-    "Kalkulator Estimasi 2.0 (simulasi kondisi lalu lintas Lancar/Perkotaan/Macet Padat & analisis titik impas oktan BBM) serta Filter Kendaraan + Bagikan Struk WA di Riwayat.",
-    "Optimasi performa produksi: penyederhanaan jalur GPS (Ramer-Douglas-Peucker) hemat memori 80% & pemisahan bundle aplikasi (code-splitting)."
+    "Saved Places (Lokasi Favorit: Home, Office, SPBU, Custom) & Recent Destinations untuk 1-tap routing langsung dari peta dan pencarian.",
+    "Penyempurnaan tata bahasa antarmuka agar natural serta standarisasi istilah teknikal dalam Bahasa Inggris (Live Trip Meter, Idle Burn Rate, Break-Even Point, Windshield Mirror, Full-to-Full Calibration).",
+    "Notifikasi Status-Bar Android Live (Biaya Rp, Jarak km, & Speed km/h real-time) + Kontrol penuh di Mode Peta Layar Penuh.",
+    "Optimasi performa produksi: penyederhanaan jalur GPS (Ramer-Douglas-Peucker) hemat memori 80% & code-splitting."
   ],
-  "sha256": "4DB387A5AFA89B611D09C9B9F36926D5773B22C841ECAA54A9BCE700395804B9"
+  "sha256": "A6D2A03A046E05AC47D41A476B03405CB6F85691417F9AD1F14DE7A5AE7612A6"
 }
