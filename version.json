@@ -1,18 +1,17 @@
 {
-  "version": "1.3.5",
-  "versionCode": 9,
+  "version": "1.3.6",
+  "versionCode": 10,
   "minVersionCode": 1,
   "releaseDate": "2026-10-26",
   "fileSize": "5.0 MiB",
   "mandatory": false,
-  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.3.5/Gason-1.3.5.apk",
+  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.3.6/Gason-1.3.6.apk",
   "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/latest",
   "releaseNotes": [
-    "Sistem Kalibrasi Full-to-Full 2.0: perhitungan Efisiensi Bergerak (Kompensasi Idle) agar bensin macet tidak terhitung ganda pada argo GPS.",
-    "Rekonsiliasi deviasi GPS vs SPBU per siklus pengisian, deteksi anomali odometer otomatis, dan indikator siklus aktif.",
-    "Sinkronisasi terpadu antara Kalibrasi Garasi, Log BBM, dan estimasi Odometer Servis real-time.",
-    "Pengaturan tarif Idle Burn (L/jam) langsung di modal efisiensi beserta preset motor (ISS/Matic/Sport) dan mobil (LCGC/MPV/SUV).",
-    "Akurasi Macet Meter ditingkatkan menggunakan residu riil konsumsi bensin saat berhenti."
+    "Mesin GPS Dual-Provider (GNSS + Fused High-Accuracy 500ms) & pemulusan adaptif untuk menghilangkan pelacakan putus-putus di area pepohonan/gedung.",
+    "Peta Prediktif 60fps & Road-Following otomatis: penanda kendaraan dan garis rute kini bergerak mulus mengikuti lekukan jalan di peta secara real-time.",
+    "Sistem Kalibrasi Full-to-Full 2.0 dengan Kompensasi Idle, rekonsiliasi deviasi GPS vs SPBU, dan deteksi anomali odometer.",
+    "Sinkronisasi terpadu antara Kalibrasi Garasi, Log BBM, dan estimasi Odometer Servis real-time."
   ],
-  "sha256": "B6DA4D46D2D1E3FEF3BE8DACA0A5A886968C51259346F314AC983B6692BEF25D"
+  "sha256": "950D2D14BBD01FEAB72C90BE1B6D95B26B0E018B6B477FA0AE5150D3CC3B4496"
 }
