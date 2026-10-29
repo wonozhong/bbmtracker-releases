@@ -1,17 +1,18 @@
 {
-  "version": "1.3.8",
-  "versionCode": 12,
+  "version": "1.4.0",
+  "versionCode": 14,
   "minVersionCode": 1,
-  "releaseDate": "2026-10-26",
+  "releaseDate": "2026-10-29",
   "fileSize": "5.0 MiB",
   "mandatory": false,
-  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.3.8/Gason-1.3.8.apk",
+  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.4.0/Gason-1.4.0.apk",
   "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/latest",
   "releaseNotes": [
-    "Saved Places (Lokasi Favorit: Home, Office, SPBU, Custom) & Recent Destinations untuk 1-tap routing langsung dari peta dan pencarian.",
-    "Penyempurnaan tata bahasa antarmuka agar natural serta standarisasi istilah teknikal dalam Bahasa Inggris (Live Trip Meter, Idle Burn Rate, Break-Even Point, Windshield Mirror, Full-to-Full Calibration).",
-    "Notifikasi Status-Bar Android Live (Biaya Rp, Jarak km, & Speed km/h real-time) + Kontrol penuh di Mode Peta Layar Penuh.",
-    "Optimasi performa produksi: penyederhanaan jalur GPS (Ramer-Douglas-Peucker) hemat memori 80% & code-splitting."
+    "Verifikasi SHA-256 APK sebelum installer dibuka: pembaruan yang tidak cocok dengan checksum rilis otomatis ditolak.",
+    "Live AVG km/L kini akurat: noise ketinggian & kecepatan GPS tidak lagi membuat konsumsi terbaca lebih boros dari layar kendaraan.",
+    "Koreksi tanjakan/turunan berbasis energi yang seimbang (naik lalu turun ke ketinggian sama = netral).",
+    "Indikator kemiringan jalan (Slope %), Profil Medan & Skor Eco-Driving di Tracker, Night HUD, dan Analitik.",
+    "Mode rotasi peta Course-Up dan unduh-pasang APK langsung di dalam aplikasi."
   ],
-  "sha256": "A6D2A03A046E05AC47D41A476B03405CB6F85691417F9AD1F14DE7A5AE7612A6"
+  "sha256": "67FAB019234376B688838FDD57EB1F3A24038B873AE8121012AA4C39BB254188"
 }
