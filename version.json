@@ -1,18 +1,17 @@
 {
-  "version": "1.4.0",
-  "versionCode": 14,
+  "version": "1.4.1",
+  "versionCode": 15,
   "minVersionCode": 1,
-  "releaseDate": "2026-10-29",
+  "releaseDate": "2026-10-31",
   "fileSize": "5.0 MiB",
   "mandatory": false,
-  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.4.0/Gason-1.4.0.apk",
+  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.4.1/Gason-1.4.1.apk",
   "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/latest",
   "releaseNotes": [
-    "Verifikasi SHA-256 APK sebelum installer dibuka: pembaruan yang tidak cocok dengan checksum rilis otomatis ditolak.",
-    "Live AVG km/L kini akurat: noise ketinggian & kecepatan GPS tidak lagi membuat konsumsi terbaca lebih boros dari layar kendaraan.",
-    "Koreksi tanjakan/turunan berbasis energi yang seimbang (naik lalu turun ke ketinggian sama = netral).",
-    "Indikator kemiringan jalan (Slope %), Profil Medan & Skor Eco-Driving di Tracker, Night HUD, dan Analitik.",
-    "Mode rotasi peta Course-Up dan unduh-pasang APK langsung di dalam aplikasi."
+    "Tombol Isi BBM di layar Argo: catat pengisian langsung, sebelum maupun saat perjalanan.",
+    "Pilih jenis BBM yang diisi; liter dan total biaya terisi otomatis dari harga per liter (harga bisa diubah).",
+    "Jenis BBM tampil di Log BBM pada tab Insights.",
+    "Verifikasi SHA-256 APK sebelum installer dibuka dan Live AVG km/L yang lebih akurat (dari v1.4.0)."
   ],
-  "sha256": "67FAB019234376B688838FDD57EB1F3A24038B873AE8121012AA4C39BB254188"
+  "sha256": "B9F5B3EC9337562ED6CCF0A9C5BE0AA1E89EEEAE85CBBAAE07CF460AA1C6C8B6"
 }
