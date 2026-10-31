@@ -1,17 +1,17 @@
 {
-  "version": "1.4.1",
-  "versionCode": 15,
+  "version": "1.4.2",
+  "versionCode": 16,
   "minVersionCode": 1,
   "releaseDate": "2026-10-31",
   "fileSize": "5.0 MiB",
   "mandatory": false,
-  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.4.1/Gason-1.4.1.apk",
+  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.4.2/Gason-1.4.2.apk",
   "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/latest",
   "releaseNotes": [
-    "Tombol Isi BBM di layar Argo: catat pengisian langsung, sebelum maupun saat perjalanan.",
-    "Pilih jenis BBM yang diisi; liter dan total biaya terisi otomatis dari harga per liter (harga bisa diubah).",
-    "Jenis BBM tampil di Log BBM pada tab Insights.",
+    "Reset Analitik di Insights > Pengaturan: mulai hitungan dari nol kapan saja, dan bisa dibatalkan. Riwayat tidak dihapus.",
+    "Opsi reset otomatis tiap tanggal 1: rata-rata Full-to-Full dan rekor di Log BBM hanya menghitung bulan berjalan.",
+    "Tombol Isi BBM di layar Argo dengan pilihan jenis BBM; liter dan total biaya terisi otomatis (dari v1.4.1).",
     "Verifikasi SHA-256 APK sebelum installer dibuka dan Live AVG km/L yang lebih akurat (dari v1.4.0)."
   ],
-  "sha256": "B9F5B3EC9337562ED6CCF0A9C5BE0AA1E89EEEAE85CBBAAE07CF460AA1C6C8B6"
+  "sha256": "F3E21B36A9A29C988CADF8A61EF0AAD93DF3D270EEFA7E9C20781F1DED48BDBC"
 }
