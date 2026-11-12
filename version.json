@@ -1,23 +1,18 @@
 {
-  "version": "1.4.6",
-  "versionCode": 20,
+  "version": "1.4.7",
+  "versionCode": 21,
   "minVersionCode": 1,
-  "releaseDate": "2026-11-10",
-  "fileSize": "5,1 MiB",
+  "releaseDate": "2026-11-12",
+  "fileSize": "3,9 MiB",
   "mandatory": false,
-  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.4.6/Gason-1.4.6.apk",
-  "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/tag/v1.4.6",
+  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.4.7/Gason-1.4.7.apk",
+  "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/tag/v1.4.7",
   "releaseNotes": [
-    "APK kanal pengujian memakai sertifikat yang sama dengan v1.4.5.",
-    "Editor perjalanan memakai satu timeline untuk membagi, memilih bagian yang dibuang, mengurungkan edit, dan memeriksa hasil sebelum menyimpan.",
-    "Durasi, BBM, dan biaya BBM mengikuti rekaman waktu jika tersedia. Ketuk rute untuk memindahkan titik potong. Catatan lama tanpa rekaman waktu memakai estimasi jarak.",
-    "Tol, parkir, dan biaya lain dapat dimasukkan utuh ke bagian pilihan atau dikeluarkan dari hasil.",
-    "Average perjalanan dari MID: saat perjalanan selesai, isi average km/L yang tampil di speedometer. Garasi menghitung average tiap kendaraan (berbobot jarak) dan bisa langsung diterapkan ke profil km/L.",
-    "Potong perjalanan per momen: lupa menekan stop? Di Edit perjalanan, pilih saat mobil mulai berhenti/idle; jarak, durasi, BBM, biaya, dan rute dihitung ulang (bisa dibatalkan).",
-    "Reset Analitik di Insights > Pengaturan: mulai hitungan dari nol kapan saja, dan bisa dibatalkan. Riwayat tidak dihapus.",
-    "Opsi reset otomatis tiap tanggal 1: rata-rata Full-to-Full dan rekor di Log BBM hanya menghitung bulan berjalan.",
-    "Tombol Isi BBM di layar Argo dengan pilihan jenis BBM; liter dan total biaya terisi otomatis (dari v1.4.1).",
-    "Verifikasi SHA-256 APK sebelum installer dibuka dan Live AVG km/L yang lebih akurat (dari v1.4.0)."
+    "APK kanal pengujian memakai sertifikat yang sama dengan v1.4.6. Instal sebagai pembaruan untuk mempertahankan riwayat.",
+    "Sinkronisasi menyimpan hasil potong sebagai satu transaksi. Koreksi dari formulir lama ditolak jika riwayat sudah berubah.",
+    "Jarak terkoreksi mengikuti proporsi rute yang tersisa. Batas jeda tercatat dan hilang GPS dibedakan dari waktu berhenti.",
+    "Peta jalan memakai OpenStreetMap. Gangguan muat peta ditampilkan di bawah jejak GPS dan peta bisa dimuat ulang.",
+    "Formulir menerima angka desimal dengan validasi berbahasa Indonesia. Angka yang belum dipakai sebagai batas tidak menghalangi pemeriksaan hasil."
   ],
-  "sha256": "536723880f11e55e1cc44bbedca936f945928987d497af5b0cd0fdca493c155a"
+  "sha256": "ec4e6e1bb9eb9a0b1b5b98bdfd01db96a0f20f92d526b5c39cb4d7440abfcd98"
 }
