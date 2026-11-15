@@ -1,18 +1,18 @@
 {
-  "version": "1.4.7",
-  "versionCode": 21,
+  "version": "1.4.8",
+  "versionCode": 22,
   "minVersionCode": 1,
-  "releaseDate": "2026-11-12",
+  "releaseDate": "2026-11-15",
   "fileSize": "3,9 MiB",
   "mandatory": false,
-  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.4.7/Gason-1.4.7.apk",
-  "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/tag/v1.4.7",
+  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.4.8/Gason-1.4.8.apk",
+  "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/tag/v1.4.8",
   "releaseNotes": [
-    "APK kanal pengujian memakai sertifikat yang sama dengan v1.4.6. Instal sebagai pembaruan untuk mempertahankan riwayat.",
-    "Sinkronisasi menyimpan hasil potong sebagai satu transaksi. Koreksi dari formulir lama ditolak jika riwayat sudah berubah.",
-    "Jarak terkoreksi mengikuti proporsi rute yang tersisa. Batas jeda tercatat dan hilang GPS dibedakan dari waktu berhenti.",
-    "Peta jalan memakai OpenStreetMap. Gangguan muat peta ditampilkan di bawah jejak GPS dan peta bisa dimuat ulang.",
-    "Formulir menerima angka desimal dengan validasi berbahasa Indonesia. Angka yang belum dipakai sebagai batas tidak menghalangi pemeriksaan hasil."
+    "APK kanal pengujian memakai sertifikat yang sama dengan v1.4.7.",
+    "Tentukan batas potong atau waktu selesai dengan tanggal dan jam, termasuk perjalanan yang melewati tengah malam.",
+    "Koreksi jarak menghitung ulang biaya BBM dengan harga perjalanan dan mempertahankan dasar perhitungan saat jarak sempat disimpan nol.",
+    "Rincian biaya BBM per segmen dapat disinkronkan. Hasil yang memakai data waktu atau rincian biaya terbatas diberi label estimasi.",
+    "Lihat total BBM, tol, parkir, biaya lain, dan patungan sebelum menyimpan. Pilih ulang penempatan biaya jika bagian yang menanggungnya dibuang."
   ],
-  "sha256": "ec4e6e1bb9eb9a0b1b5b98bdfd01db96a0f20f92d526b5c39cb4d7440abfcd98"
+  "sha256": "9f23f90fc7ec1619c090bf0ab3addd31665cffdf0bb5b3128b380c316f6d7f44"
 }
