@@ -1,18 +1,17 @@
 {
-  "version": "1.4.8",
-  "versionCode": 22,
+  "version": "1.4.9",
+  "versionCode": 23,
   "minVersionCode": 1,
-  "releaseDate": "2026-11-15",
-  "fileSize": "3,9 MiB",
+  "releaseDate": "2026-11-16",
+  "fileSize": "4.0 MiB",
   "mandatory": false,
-  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.4.8/Gason-1.4.8.apk",
-  "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/tag/v1.4.8",
+  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.4.9/Gason-1.4.9.apk",
+  "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/tag/v1.4.9",
   "releaseNotes": [
-    "APK kanal pengujian memakai sertifikat yang sama dengan v1.4.7.",
-    "Tentukan batas potong atau waktu selesai dengan tanggal dan jam, termasuk perjalanan yang melewati tengah malam.",
-    "Koreksi jarak menghitung ulang biaya BBM dengan harga perjalanan dan mempertahankan dasar perhitungan saat jarak sempat disimpan nol.",
-    "Rincian biaya BBM per segmen dapat disinkronkan. Hasil yang memakai data waktu atau rincian biaya terbatas diberi label estimasi.",
-    "Lihat total BBM, tol, parkir, biaya lain, dan patungan sebelum menyimpan. Pilih ulang penempatan biaya jika bagian yang menanggungnya dibuang."
+    "APK kanal pengujian memakai sertifikat Android Debug yang sama dengan v1.4.8.",
+    "Titik GPS memakai waktu saat direkam agar jam, jarak, dan perkiraan BBM tetap selaras.",
+    "Editor potong menampilkan tanggal, jam, dan kilometer untuk tiap bagian serta menandai durasi tanpa data GPS.",
+    "Perjalanan yang dilanjutkan setelah browser ditutup mencatat selang tanpa pengamatan GPS sebagai waktu tanpa data."
   ],
-  "sha256": "9f23f90fc7ec1619c090bf0ab3addd31665cffdf0bb5b3128b380c316f6d7f44"
+  "sha256": "3f8ba00b828c1314bc825ccf60617553ab3832cb73798b8807ad64506f399465"
 }
