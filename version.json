@@ -1,17 +1,17 @@
 {
-  "version": "1.4.9",
-  "versionCode": 23,
+  "version": "1.4.10",
+  "versionCode": 24,
   "minVersionCode": 1,
-  "releaseDate": "2026-11-16",
+  "releaseDate": "2026-11-18",
   "fileSize": "4.0 MiB",
   "mandatory": false,
-  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.4.9/Gason-1.4.9.apk",
-  "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/tag/v1.4.9",
+  "apkUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/download/v1.4.10/Gason-1.4.10.apk",
+  "fallbackDownloadUrl": "https://github.com/wonozhong/bbmtracker-releases/releases/tag/v1.4.10",
   "releaseNotes": [
-    "APK kanal pengujian memakai sertifikat Android Debug yang sama dengan v1.4.8.",
-    "Titik GPS memakai waktu saat direkam agar jam, jarak, dan perkiraan BBM tetap selaras.",
-    "Editor potong menampilkan tanggal, jam, dan kilometer untuk tiap bagian serta menandai durasi tanpa data GPS.",
-    "Perjalanan yang dilanjutkan setelah browser ditutup mencatat selang tanpa pengamatan GPS sebagai waktu tanpa data."
+    "APK kanal pengujian memakai sertifikat Android Debug yang sama dengan v1.4.9.",
+    "Pengingat muncul setelah 30 menit perjalanan direkam, dengan pilihan Selesaikan atau Ingatkan 30 menit lagi.",
+    "Android menampilkan notifikasi pengingat saat aplikasi di latar belakang; web menampilkan pengingat di dalam aplikasi.",
+    "Pengingat dibersihkan saat perjalanan dijeda atau selesai; tindakan notifikasi lama tidak menghentikan perjalanan lain."
   ],
-  "sha256": "3f8ba00b828c1314bc825ccf60617553ab3832cb73798b8807ad64506f399465"
+  "sha256": "44892c51bae439ca1aefec6607bafbf97dc7529b458ead896ff22034c9431c34"
 }
